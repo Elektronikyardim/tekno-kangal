@@ -1,0 +1,24 @@
+{
+  "packages": [
+    {
+      "name": "Tekno Kangal",
+      "maintainer": "Elektronikyardim.com",
+      "websiteURL": "https://github.com/Elektronikyardim/tekno_kangal",
+      "platforms": [
+        {
+          "name": "Tekno Kangal",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/Elektronikyardim/tekno-kangal/archive/refs/heads/main.zip",
+          "archiveFileName": "Tekno_Kangal.zip",
+          "boards": [
+            {"name": "Tekno Kangal"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
