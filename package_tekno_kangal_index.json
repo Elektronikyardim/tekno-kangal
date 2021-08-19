@@ -4,23 +4,35 @@
       "name": "Tekno Kangal",
       "maintainer": "Elektronikyardim.com",
       "websiteURL": "https://github.com/Elektronikyardim/tekno-kangal",
+      "email": "",
+      "help": {
+        "online": "https://github.com/Elektronikyardim/tekno-kangal",
+      },
       "platforms": [
         {
           "name": "Tekno Kangal",
           "architecture": "avr",
 		  "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/Elektronikyardim/tekno-kangal/blob/main/Tekno_Kangal.zip?raw=true",
+          "help": {
+            "online": "https://github.com/Elektronikyardim/tekno-kangal",
+          },
+          "url":  "https://github.com/Elektronikyardim/tekno-kangal/blob/main/Tekno_Kangal.zip?raw=true",
           "archiveFileName": "Tekno_Kangal.zip",
-		  "checksum": "SHA-256:9a47c68ec9643598eaeef96c540e9098",
+		  "checksum": "SHA-256:c5df8f299fc91cd4492a9847845cf93a",
           "size": "8314",
-          "boards": [
-            {"name": "Tekno Kangal"}
-          ],
-          "toolsDependencies": []
+          "boards": [{ "name": "Tekno Kangal" }],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
         }
+        
       ],
-      "tools":[]
+      "tools": []
     }
   ]
 }
