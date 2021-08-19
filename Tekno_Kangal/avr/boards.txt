@@ -1,0 +1,29 @@
+# Tekno_Kangal
+# Elektronikyardim.com
+
+##############################################################
+
+Tekno_Kangal.name=Tekno Kangal
+Tekno_Kangal.upload.tool=avrdude
+Tekno_Kangal.upload.protocol=arduino
+
+Tekno_Kangal.bootloader.tool=avrdude
+Tekno_Kangal.bootloader.unlock_bits=0x3F
+Tekno_Kangal.bootloader.lock_bits=0x0F
+
+Tekno_Kangal.build.f_cpu=16000000L
+Tekno_Kangal.build.board=AVR_Tekno_Kangal
+Tekno_Kangal.build.core=arduino
+Tekno_Kangal.build.variant=eightanaloginputs
+
+
+Tekno_Kangal.menu.cpu.atmega328=ATmega328P
+
+Tekno_Kangal.menu.cpu.atmega328.upload.maximum_size=30720
+Tekno_Kangal.menu.cpu.atmega328.upload.maximum_data_size=2048
+Tekno_Kangal.menu.cpu.atmega328.upload.speed=115200
+
+Tekno_Kangal.menu.cpu.atmega328.bootloader.low_fuses=0xFF
+Tekno_Kangal.menu.cpu.atmega328.bootloader.high_fuses=0xDA
+Tekno_Kangal.menu.cpu.atmega328.bootloader.extended_fuses=0xFD
+Tekno_Kangal.menu.cpu.atmega328.bootloader.file=optiboot/optiboot_atmega328.hex
