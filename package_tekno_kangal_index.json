@@ -12,8 +12,6 @@
           "category": "Contributed",
           "url": "https://github.com/Elektronikyardim/tekno-kangal/blob/main/Tekno_Kangal.zip",
           "archiveFileName": "Tekno_Kangal.zip",
-		  "checksum": "f25bf6069d23932e8a85fb9b1807d4d6",
-          "size": "8309",
           "boards": [
             {"name": "Tekno Kangal"}
           ],
