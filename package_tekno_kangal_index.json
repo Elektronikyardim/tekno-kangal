@@ -10,7 +10,7 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/Elektronikyardim/tekno-kangal/archive/refs/heads/main.zip",
+          "url": "https://github.com/Elektronikyardim/tekno-kangal/blob/main/Tekno_Kangal.zip",
           "archiveFileName": "Tekno_Kangal.zip",
           "boards": [
             {"name": "Tekno Kangal"}
